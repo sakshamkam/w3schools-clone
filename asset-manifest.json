@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/w3schools-clone/static/css/main.b0a12a7e.css",
+    "main.js": "/w3schools-clone/static/js/main.c8690e8e.js",
+    "index.html": "/w3schools-clone/index.html",
+    "main.b0a12a7e.css.map": "/w3schools-clone/static/css/main.b0a12a7e.css.map",
+    "main.c8690e8e.js.map": "/w3schools-clone/static/js/main.c8690e8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0a12a7e.css",
+    "static/js/main.c8690e8e.js"
+  ]
+}

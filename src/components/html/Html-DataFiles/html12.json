@@ -1,0 +1,21 @@
+{
+  "title": "HTML Comments",
+  "gp1": "HTML comments are not displayed in the browser, but they can help document your HTML source code.",
+  "gp2": "You can add comments to your HTML source by using the following syntax:",
+  "gp3": "Notice that there is an exclamation point (!) in the start tag, but not in the end tag.",
+  "gp4": "With comments you can place notifications and reminders in your HTML code:",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "Comments can be used to hide content.",
+  "wp2": "This can be helpful if you hide content temporarily:",
+  "wp3": "You can also hide more than one line. Everything between the <!-- and the --> will be hidden from the display.",
+  "wp4": "Comments are also great for debugging HTML, because you can comment out HTML lines of code, one at a time, to search for errors.",
+  "wp5": "Comments can be used to hide parts in the middle of the HTML code.",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": "<!-- Write your comments here --> \n\n <p>This is a paragraph.</p> \n\n <!-- Remember to add more information here --> \n\n<!-- <p>This is another paragraph </p> --> \n\n<p>Look at this cool image:</p><img border='0' src='pic_trulli.jpg' alt='Trulli'>-->"
+}

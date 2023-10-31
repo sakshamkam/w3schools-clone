@@ -1,0 +1,21 @@
+{
+  "title": "HTML Favicon",
+  "gp1": "A favicon is a small image displayed next to the page title in the browser tab.",
+  "gp2": "A favicon image is displayed to the left of the page title in the browser tab, like this:",
+  "gp3": "To add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is 'favicon.ico'.",
+  "gp4": "Now, save the 'index.html' file and reload it in your browser. Your browser tab should now display your favicon image to the left of the page title.",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "Next, add a <link> element to your 'index.html' file, after the <title> element, like this:",
+  "wp2": "Tip: A favicon is a small image, so it should be a simple image with high contrast.",
+  "wp3": "Use the HTML <link> element to insert a favicon",
+  "wp4": "For a complete list of all available HTML tags, visit our HTML Tag Reference.",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <!DOCTYPE html>\n<html>\n<head>\n  <title>My Page Title</title>\n  <link rel='icon' type='image/x-icon' href='/images/favicon.ico'>\n</head>\n<body>\n\n\n<h1>This is a Heading</h1>\n<p>This is a paragraph.</p>\n\n\n</body>\n</html> "
+}

@@ -1,0 +1,21 @@
+{
+  "title": "HTML Encoding (Character Sets)",
+  "gp1": "To display an HTML page correctly, a web browser must know which character set to use.",
+  "gp2": "The character set is specified in the <meta> tag:",
+  "gp3": "The HTML5 specification encourages web developers to use the UTF-8 character set.",
+  "gp4": "UTF-8 covers almost all of the characters and symbols in the world!",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "ANSI (Windows-1252) was the original Windows character set:",
+  "wp2": "ISO-8859-1 was the default character set for HTML 4. This character set supported 256 different character codes. HTML 4 also supported UTF-8.",
+  "wp3": "ASCII was the first character encoding standard for the web. It defined 128 different characters that could be used on the internet: ",
+  "wp4": "",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <meta charset='UTF-8'> \n <meta charset='Windows-1252'> \n\n  <meta http-equiv='Content-Type' content='text/html;charset=ISO-8859-1'> "
+}

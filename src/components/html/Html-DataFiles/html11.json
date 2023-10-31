@@ -1,0 +1,21 @@
+{
+  "title": "HTML Quotation and Citation Elements",
+  "gp1": "In this chapter we will go through the <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo> HTML elements.",
+  "gp2": "The HTML <blockquote> element defines a section that is quoted from another source.",
+  "gp3": "The HTML <q> tag defines a short quotation.",
+  "gp4": "Browsers normally insert quotation marks around the quotation.",
+  "gp5": "The HTML <abbr> tag defines an abbreviation or an acronym, like'HTML', 'CSS', 'Mr.', 'Dr.', 'ASAP', 'ATM'.' ",
+  "gp6": "Marking abbreviations can give useful information to browsers, translation systems and search-engines.",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "The HTML <address> tag defines the contact information for the author/owner of a document or an article.",
+  "wp2": "The contact information can be an email address, URL, physical address, phone number, social media handle, etc.",
+  "wp3": "The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.",
+  "wp4": "The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).",
+  "wp5": "The HTML <bdo> tag is used to override the current text direction:",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <p>Here is a quote from WWF's website:</p>\n<blockquote cite='worldwildlife.org'>\nFor 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.\n</blockquote> \n\n  <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p> \n\n  <p>The <abbr title='World Health Organization'>WHO</abbr> was founded in 1948.</p>  "
+}

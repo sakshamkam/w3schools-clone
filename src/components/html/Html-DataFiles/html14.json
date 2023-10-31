@@ -1,0 +1,21 @@
+{
+  "title": "HTML Styles - Css",
+  "gp1": "CSS stands for Cascading Style Sheets.",
+  "gp2": "CSS saves a lot of work. It can control the layout of multiple web pages all at once.",
+  "gp3": "Cascading Style Sheets (CSS) is used to format the layout of a webpage.",
+  "gp4": "With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!",
+  "gp5": "The most common way to add CSS, is to keep the styles in external CSS files. However, in this tutorial we will use inline and internal styles, because this is easier to demonstrate, and easier for you to try it yourself.",
+  "gp6": "An inline CSS is used to apply a unique style to a single HTML element.",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "The CSS border property defines a border around an HTML element.",
+  "wp2": "The CSS padding property defines a padding (space) between the text and the border.",
+  "wp3": "The CSS margin property defines a margin (space) outside the border.",
+  "wp4": "External style sheets can be referenced with a full URL or with a path relative to the current web page.",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <!DOCTYPE html>\n<html>\n<head>\n<style>\nh1 {\n  color: blue;\n  font-family: verdana;\n  font-size: 300%;\n}\np {\n  color: red;\n  font-family: courier;\n  font-size: 160%;\n}\n</style>\n</head>\n<body>\n\n<h1>This is a heading</h1>\n<p>This is a paragraph.</p>\n\n</body>\n</html> "
+}

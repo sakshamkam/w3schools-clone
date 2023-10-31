@@ -1,0 +1,21 @@
+{
+  "title": "HTML Basic Examples",
+  "gp1": "In this chapter we will show some basic HTML examples.",
+  "gp2": "Don't worry if we use tags you have not learned about yet.",
+  "gp3": "All HTML documents must start with a document type declaration: <!DOCTYPE html>.",
+  "gp4": "The HTML document itself begins with <html> and ends with </html>.",
+  "gp5": "The visible part of the HTML document is between <body> and </body>. ",
+  "gp6": "The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.",
+  "gp7": "HTML headings are defined with the <h1> to <h6> tags.",
+  "gp8": "<h1> defines the most important heading. <h6> defines the least important heading:",
+  "wp1": "HTML paragraphs are defined with the <p> tag:",
+  "wp2": "HTML links are defined with the <a> tag:",
+  "wp3": "The link's destination is specified in the href attribute. ",
+  "wp4": "Attributes are used to provide additional information about HTML elements.",
+  "wp5": "You will learn more about attributes in a later chapter.",
+  "wp6": "HTML images are defined with the <img> tag.",
+  "wp7": "The source file (src), alternative text (alt), width, and height are provided as attributes:",
+  "wp8": "Right-click on an element (or a blank area), and choose 'Inspect' to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.",
+
+  "example": " <h1>This is heading 1</h1>\n<h2>This is heading 2</h2>\n<h3>This is heading 3</h3> \n\n <p>This is a paragraph.</p>\n<p>This is another paragraph.</p>  \n\n <a href='https://www.w3schools.com'>This is a link</a> \n\n  <img src='w3schools.jpg' alt='W3Schools.com' width='104' height='142'>  "
+}

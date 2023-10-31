@@ -1,0 +1,21 @@
+{
+  "title": "HTML Symbols",
+  "gp1": "Symbols or letters that are not present on your keyboard can be added to HTML using entities.",
+  "gp2": "HTML entities were described in the previous chapter.",
+  "gp3": "Many mathematical, technical, and currency symbols, are not present on a normal keyboard.",
+  "gp4": "",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "To add such symbols to an HTML page, you can use the entity name or the entity number (a decimal or a hexadecimal reference) for the symbol:",
+  "wp2": "",
+  "wp3": "",
+  "wp4": "",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <p>I will display &euro;</p>\n<p>I will display &#8364;</p>\n<p>I will display &#x20AC;</p> "
+}

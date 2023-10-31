@@ -1,0 +1,67 @@
+.tutorial-boss h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.tutorial-boss h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fff4a3;
+  margin-bottom: 1.5rem;
+}
+
+.tutorial-boss p {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.tutorial-boss {
+  position: absolute;
+  background-color: #282a35;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  width: 100%;
+}
+
+.tutorial-head {
+  color: #fff4a3;
+  display: block;
+}
+
+.courses {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+}
+
+.course-section {
+  width: 33.33%;
+}
+
+.service-boss {
+  height: 100vh;
+}
+
+@media (max-width: 1000px) {
+  .tutorial-boss h1 {
+    font-size: 2.3rem;
+  }
+  .tutorial-boss h2 {
+    font-size: 1.5rem;
+  }
+  .tutorial-boss p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 650px) {
+  .courses {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+}

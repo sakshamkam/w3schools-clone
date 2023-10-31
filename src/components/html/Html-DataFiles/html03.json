@@ -1,0 +1,21 @@
+{
+  "title": "HTML Editors",
+  "gp1": "Web pages can be created and modified by using professional HTML editors.",
+  "gp2": "However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).",
+  "gp3": "We believe that using a simple text editor is a good way to learn HTML.",
+  "gp4": "Follow the steps below to create your first web page with Notepad or TextEdit.",
+  "gp5": "You can use either .htm or .html as file extension. There is no difference; it is up to you.",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "With our free online editor, you can edit the HTML code and view the result in your browser.",
+  "wp2": "It is the perfect tool when you want to test code fast. It also has color coding and the ability to save and share code with others:",
+  "wp3": "Click on the 'Try it Yourself' button to see how it works.",
+  "wp4": "If you want to create your own website and save your code online, try our free website builder, called W3schools Spaces:",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n</head>\n<body>\n\n<h1>This is a Heading</h1>\n<p>This is a paragraph.</p>\n\n</body>\n</html> "
+}

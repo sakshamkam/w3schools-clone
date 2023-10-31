@@ -1,0 +1,21 @@
+{
+  "title": "HTML Style Guide",
+  "gp1": "A consistent, clean, and tidy HTML code makes it easier for others to read and understand your code. ",
+  "gp2": "Here are some guidelines and tips for creating good HTML code.",
+  "gp3": "Always declare the document type as the first line in your document.",
+  "gp4": "The correct document type for HTML is: <!DOCTYPE html>",
+  "gp5": "HTML allows mixing uppercase and lowercase letters in element names.",
+  "gp6": "In HTML, you do not have to close all elements (for example the <p> element).",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "Always specify the alt attribute for images. This attribute is important if the image for some reason cannot be displayed.",
+  "wp2": "Also, always define the width and height of images. This reduces flickering, because the browser can reserve space for the image before loading.",
+  "wp3": "HTML allows spaces around equal signs. But space-less is easier to read and groups entities better together.",
+  "wp4": "When using an HTML editor, it is NOT convenient to scroll right and left to read the HTML code.",
+  "wp5": "The viewport is the user's visible area of a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.",
+  "wp6": "To ensure proper interpretation and correct search engine indexing, both the language and the character encoding <meta charset='charset'> should be defined as early as possible in an HTML document:",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <body>\n<h1>Famous Cities</h1>\n\n  <h2>Tokyo</h2><p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>\n\n  <h2>London</h2><p>London is the capital city of England. It is the most populous city in the United Kingdom.</p>\n\n  <h2>Paris</h2><p>Paris is the capital of France. The Paris area is one of the largest population centers in Europe.</p>\n\n  </body> "
+}

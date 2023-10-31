@@ -1,0 +1,21 @@
+{
+  "title": "HTML Colors",
+  "gp1": "HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values.",
+  "gp2": "In HTML, a color can be specified by using a color name",
+  "gp3": "You can set the background color for HTML elements:",
+  "gp4": "",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "You can set the color of text:",
+  "wp2": "In HTML, colors can also be specified using RGB values, HEX values, HSL values, RGBA values, and HSLA values.",
+  "wp3": "The following three <div> elements have their background color set with RGB, HEX, and HSL values:",
+  "wp4": "The following two <div> elements have their background color set with RGBA and HSLA values, which add an Alpha channel to the color (here we have 50% transparency):",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <h1 style='background-color:DodgerBlue;'>Hello World</h1>\n<p style='background-color:Tomato;'>Lorem ipsum...</p> \n\n  <h1 style='color:Tomato;'>Hello World</h1>\n<p style='color:DodgerBlue;'>Lorem ipsum...</p>\n<p style='color:MediumSeaGreen;'>Ut wisi enim...</p> "
+}

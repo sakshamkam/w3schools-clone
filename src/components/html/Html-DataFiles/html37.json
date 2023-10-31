@@ -1,0 +1,21 @@
+{
+  "title": "HTML Uniform Resource Locators",
+  "gp1": "A URL is another word for a web address.",
+  "gp2": "A URL can be composed of words (e.g. w3schools.com), or an Internet Protocol (IP) address (e.g. 192.68.20.50).",
+  "gp3": "Most people enter the name when surfing, because names are easier to remember than numbers.",
+  "gp4": "Web browsers request pages from web servers by using a URL.",
+  "gp5": "A Uniform Resource Locator (URL) is used to address a document (or other data) on the web.",
+  "gp6": "A web address like https://www.w3schools.com/html/default.asp follows these syntax rules:",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "URLs can only be sent over the Internet using the ASCII character-set. If a URL contains characters outside the ASCII set, the URL has to be converted.",
+  "wp2": "URL encoding converts non-ASCII characters into a format that can be transmitted over the Internet.",
+  "wp3": "URL encoding replaces non-ASCII characters with a '%' followed by hexadecimal digits.",
+  "wp4": "URLs cannot contain spaces. URL encoding normally replaces a space with a plus (+) sign, or %20.",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": "scheme://prefix.domain:port/path/filename "
+}

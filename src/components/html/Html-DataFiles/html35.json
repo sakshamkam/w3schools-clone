@@ -1,0 +1,21 @@
+{
+  "title": "Using Emojis in HTML",
+  "gp1": "Emojis are characters from the UTF-8 character set: 😄 😍 💗",
+  "gp2": "Emojis look like images, or icons, but they are not.",
+  "gp3": "They are letters (characters) from the UTF-8 (Unicode) character set.",
+  "gp4": "To display an HTML page correctly, a web browser must know the character set used in the page.",
+  "gp5": "This is specified in the <meta> tag:",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "Many UTF-8 characters cannot be typed on a keyboard, but they can always be displayed using numbers (called entity numbers):",
+  "wp2": "The characters A, B, and C, are displayed by the numbers 65, 66, and 67.",
+  "wp3": "To let the browser understand that you are displaying a character, you must start the entity number with &# and end it with ; (semicolon).",
+  "wp4": "Since Emojis are characters, they can be copied, displayed, and sized just like any other character in HTML.",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <!DOCTYPE html>\n<html>\n<meta charset='UTF-8'>\n<body>\n\n<h1>Sized Emojis</h1>\n\n<p style='font-size:48px'>\n&#128512; &#128516; &#128525; &#128151;\n</p>\n\n</body>\n</html> "
+}

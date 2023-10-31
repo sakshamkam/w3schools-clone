@@ -1,0 +1,21 @@
+{
+  "title": "HTML Computer Code Elements",
+  "gp1": "HTML contains several elements for defining user input and computer code. ",
+  "gp2": "The HTML <kbd> element is used to define keyboard input. The content inside is displayed in the browser's default monospace font.",
+  "gp3": "The HTML <samp> element is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.",
+  "gp4": "The HTML <code> element  is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font.",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "The HTML <var> element  is used to define a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.",
+  "wp2": "The <pre> element defines preformatted text",
+  "wp3": "",
+  "wp4": "",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <pre>\n<code>\nx = 5;\ny = 6;\nz = x + y;\n</code>\n</pre> "
+}

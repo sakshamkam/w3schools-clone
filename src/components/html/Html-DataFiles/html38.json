@@ -1,0 +1,21 @@
+{
+  "title": "HTML Versus XHTML",
+  "gp1": "XHTML is a stricter, more XML-based version of HTML.",
+  "gp2": "XML is a markup language where all documents must be marked up correctly (be 'well-formed').",
+  "gp3": "XHTML was developed to make HTML more extensible and flexible to work with other data formats (such as XML). In addition, browsers ignore errors in HTML pages, and try to display the website even if it has some errors in the markup. So XHTML comes with a much stricter error handling.",
+  "gp4": "An XHTML document must have an XHTML <!DOCTYPE> declaration.",
+  "gp5": "The <html>, <head>, <title>, and <body> elements must also be present, and the xmlns attribute in <html> must specify the xml namespace for the document.",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "In XHTML, elements must always be properly nested within each other",
+  "wp2": "In XHTML, elements must always be closed",
+  "wp3": "In XHTML, empty elements must always be closed",
+  "wp4": "In XHTML, element names must always be in lowercase",
+  "wp5": "In XHTML, attribute names must always be in lowercase",
+  "wp6": "In XHTML, attribute values must always be quoted",
+  "wp7": "In XHTML, attribute minimization is forbidden",
+  "wp8": "",
+
+  "example": " <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.1//EN'\n'http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd'>\n<html xmlns='http://www.w3.org/1999/xhtml'>\n<head>\n  <title>Title of document</title>\n</head>\n<body>\n\n  some content here...\n\n</body>\n</html> "
+}

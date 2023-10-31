@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap");
+
+.start-boss {
+  width: 100%;
+  padding-top: 6rem;
+  background-color: #dbeee1;
+}
+
+.start-boss h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+}
+
+.start-boss h2 {
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.start-img {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.start-img img {
+  height: auto;
+  width: 60%;
+}
+
+.start-butt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8rem;
+  user-select: none;
+}
+
+.start-butt h2 {
+  color: white;
+  background-color: #04aa6d;
+  margin: 4rem;
+  width: 30rem;
+  padding: 1.5rem;
+  border-radius: 3rem;
+}
+
+.start-butt h2:hover {
+  background-color: #028c59;
+}
+
+.color-boss {
+  width: 100%;
+  background-color: #f3ecea;
+}
+
+.color-boss h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.color-boss h2 {
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.color-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8rem;
+}
+
+.game-boss {
+  width: 100%;
+  background-color: #96d4d4;
+}
+
+.game-boss h1 {
+  font-size: 5rem;
+  font-family: "Pixelify Sans", cursive;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.game-boss h2 {
+  font-family: "Pixelify Sans", cursive;
+  font-size: 3rem;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+}
+
+.game-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8rem;
+}
+
+.exercise-boss {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.exercise-boss h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  padding-top: 6rem;
+}
+
+.exercise-boss h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 4rem;
+}
+
+.exercise-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding-bottom: 6rem;
+  user-select: none;
+}
+
+.exercise-butt {
+  text-align: center;
+  width: 45%;
+  padding: 7rem;
+  font-size: 3.5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+}
+
+.eb1:hover {
+  background-color: #028c59;
+}
+.eb2:hover {
+  background-color: #f5e67b;
+}
+
+.template-boss {
+  width: 100%;
+  background-color: #fff;
+}
+
+.template-boss h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.template-boss h2 {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.template-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.template-img img {
+  width: 65%;
+}
+
+.template-butt {
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+  user-select: none;
+}
+
+.template-butt h2 {
+  font-weight: 600;
+  color: white;
+  padding: 0;
+  margin: 0;
+  padding: 1.5rem;
+  width: 50%;
+  border-radius: 2rem;
+  background-color: #282a35;
+}
+
+.template-butt h2:hover {
+  background-color: black;
+}
+
+@media (max-width: 1000px) {
+  .start-boss h1 {
+    font-size: 5rem;
+  }
+
+  .start-boss h2 {
+    font-size: 1.6rem;
+  }
+
+  .start-img img {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .game-boss h2 {
+    font-size: 2rem;
+  }
+
+  .exercise-buttons {
+    flex-direction: column;
+    width: 70%;
+    padding-bottom: 0;
+    align-items: center;
+  }
+
+  .exercise-butt {
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 2rem;
+  }
+
+  .exercise-boss h1 {
+    font-size: 4rem;
+  }
+}

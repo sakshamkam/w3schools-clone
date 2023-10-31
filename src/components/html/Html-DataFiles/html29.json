@@ -1,0 +1,21 @@
+{
+  "title": "HTML Responsive Web Design",
+  "gp1": "Responsive web design is about creating web pages that look good on all devices! ",
+  "gp2": "A responsive web design will automatically adjust for different screen sizes and viewports.",
+  "gp3": "Responsive Web Design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge, a website, to make it look good on all devices (desktops, tablets, and phones):",
+  "gp4": "To create a responsive website, add the following <meta> tag to all your web pages:",
+  "gp5": "This will set the viewport of your page, which will give the browser instructions on how to control the page's dimensions and scaling.",
+  "gp6": "Responsive images are images that scale nicely to fit any browser size.",
+  "gp7": "If the CSS width property is set to 100%, the image will be responsive and scale up and down:",
+  "gp8": "",
+  "wp1": "The HTML <picture> element allows you to define different images for different browser window sizes.",
+  "wp2": "Resize the browser window to see how the image below changes depending on the width:",
+  "wp3": "The text size can be set with a 'vw' unit, which means the 'viewport width'.",
+  "wp4": "That way the text size will follow the size of the browser window:",
+  "wp5": "In addition to resize text and images, it is also common to use media queries in responsive web pages.",
+  "wp6": "With media queries you can define completely different styles for different browser sizes.",
+  "wp7": "A responsive web page should look good on large desktop screens and on small mobile phones.",
+  "wp8": "",
+
+  "example": "<div class='w3-third'>\n  <h2>London</h2>\n  <p>London is the capital city of England.</p>\n  <p>It is the most populous city in the United Kingdom,\n  with a metropolitan area of over 13 million inhabitants.</p>\n</div>"
+}

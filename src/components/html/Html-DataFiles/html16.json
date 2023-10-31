@@ -1,0 +1,21 @@
+{
+  "title": "HTML Images",
+  "gp1": "Images can improve the design and the appearance of a web page.",
+  "gp2": "Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.",
+  "gp3": "The <img> tag is empty, it contains attributes only, and does not have a closing tag.",
+  "gp4": "Note: When a web page loads, it is the browser, at that moment, that gets the image from a web server and inserts it into the page. Therefore, make sure that the image actually stays in the same spot in relation to the web page, otherwise your visitors will get a broken link icon. The broken link icon and the alt text are shown if the browser cannot find the image.",
+  "gp5": "The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).",
+  "gp6": "If a browser cannot find an image, it will display the value of the alt attribute:",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "You can use the style attribute to specify the width and height of an image.",
+  "wp2": "Alternatively, you can use the width and height attributes:",
+  "wp3": "The width and height attributes always define the width and height of the image in pixels.",
+  "wp4": "However, we suggest using the style attribute. It prevents styles sheets from changing the size of images:",
+  "wp5": "If you have your images in a sub-folder, you must include the folder name in the src attribute:",
+  "wp6": "To point to an image on another server, you must specify an absolute (full) URL in the src attribute:",
+  "wp7": "To use an image as a link, put the <img> tag inside the <a> tag:",
+  "wp8": "",
+
+  "example": "<img src='img_chania.jpg' alt='Flowers in Chania'> \n \n <img src='img_girl.jpg' alt='Girl in a jacket' style='width:500px;height:600px;'> \n\n  <img src='img_girl.jpg' alt='Girl in a jacket' width='500' height='600'> \n\n\n <p><img src='smiley.gif' alt='Smiley face' style='float:right;width:42px;height:42px;'>\nThe image will float to the right of the text.</p>\n\n\n<p><img src='smiley.gif' alt='Smiley face' style='float:left;width:42px;height:42px;'>\nThe image will float to the left of the text.</p> "
+}

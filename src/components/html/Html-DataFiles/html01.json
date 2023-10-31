@@ -1,0 +1,21 @@
+{
+  "title": "HTML Tutorials",
+  "gp1": "HTML is the standard markup language for Web pages.",
+  "gp2": "With HTML you can create your own Website.",
+  "gp3": "HTML is easy to learn - You will enjoy it!",
+  "gp4": "With our Try it Yourself editor, you can edit the HTML code and view the result",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "This HTML tutorial also contains nearly 100 HTML exercises.",
+  "wp2": "Test your HTML skills with our HTML Quiz!",
+  "wp3": "At W3Schools you will find complete references about HTML elements,attributes, events, color names, entities, character-sets, URLencoding, language codes, HTTP messages, browser support, and more:",
+  "wp4": "Track your progress with the free 'My Learning' program here atW3Schools.",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <!DOCTYPE html>\n<html>\n<head>\n<title>Page Title</title>\n</head>\n<body>\n\n<h1>This is a Heading</h1>\n<p>This is a paragraph.</p>\n\n</body>\n</html> "
+}

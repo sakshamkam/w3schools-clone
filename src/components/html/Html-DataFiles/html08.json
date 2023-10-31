@@ -1,0 +1,21 @@
+{
+  "title": "HTML Paragraphs",
+  "gp1": "A paragraph always starts on a new line, and is usually a block of text.",
+  "gp2": "The HTML <p> element defines a paragraph.",
+  "gp3": "A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.",
+  "gp4": "You cannot be sure how HTML will be displayed.",
+  "gp5": "Large or small screens, and resized windows will create different results.",
+  "gp6": "With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.",
+  "gp7": "The browser will automatically remove any extra spaces and lines when the page is displayed:",
+  "gp8": "",
+  "wp1": "The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.",
+  "wp2": "The <hr> element is used to separate content (or define a change) in an HTML page:",
+  "wp3": "The <hr> tag is an empty tag, which means that it has no end tag.",
+  "wp4": "Use <br> if you want a line break (a new line) without starting a new paragraph:",
+  "wp5": "The <br> tag is an empty tag, which means that it has no end tag.",
+  "wp6": "The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <p>\nThis paragraph\ncontains a lot of lines\nin the source code,\nbut the browser\nignores it.\n</p>\n\n<p>\nThis paragraph\ncontains         a lot of spaces\nin the source         code,\nbut the        browser\nignores it.\n</p> "
+}

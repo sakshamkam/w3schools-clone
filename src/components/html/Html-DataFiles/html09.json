@@ -1,0 +1,21 @@
+{
+  "title": "HTML Styles",
+  "gp1": "The HTML style attribute is used to add styles to an element, such as color, font, size, and more.",
+  "gp2": "Setting the style of an HTML element, can be done with the style attribute.",
+  "gp3": "The CSS background-color property defines the background color for an HTML element.",
+  "gp4": "The CSS color property defines the text color for an HTML element:",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "The CSS color property defines the text color for an HTML element:",
+  "wp2": "The CSS font-family property defines the font to be used for an HTML element:",
+  "wp3": "The CSS font-size property defines the text size for an HTML element:",
+  "wp4": "The CSS text-align property defines the horizontal text alignment for an HTML element:",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <body style='background-color:powderblue;'>\n\n<h1>This is a heading</h1>\n<p>This is a paragraph.</p>\n\n</body> \n\n\n <body>\n\n\n<h1 style='background-color:powderblue;'>This is a heading</h1>\n<p style='background-color:tomato;'>This is a paragraph.</p>\n\n</body>  "
+}

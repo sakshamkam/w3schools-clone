@@ -1,0 +1,21 @@
+{
+  "title": "HTML Attributes",
+  "gp1": "HTML attributes provide additional information about HTML elements.",
+  "gp2": "The <a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to:",
+  "gp3": "You will learn more about links in our HTML Links chapter.",
+  "gp4": "The <img> tag is used to embed an image in an HTML page. The src attribute specifies the path to the image to be displayed:",
+  "gp5": "There are two ways to specify the URL in the src attribute: \n 1. Absolute URL - Links to an external image that is hosted on another website. Example: src='https://www.w3schools.com/images/img_girl.jpg'. \n 2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src='img_girl.jpg'. If the URL begins with a slash, it will be relative to the domain. Example: src='/images/img_girl.jpg'.",
+  "gp6": "The <img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):",
+  "gp7": "The required alt attribute for the <img> tag specifies an alternate text for an image, if the image for some reason cannot be displayed. This can be due to a slow connection, or an error in the src attribute, or if the user uses a screen reader.",
+  "gp8": "The style attribute is used to add styles to an element, such as color, font, size, and more.",
+  "wp1": "You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.",
+  "wp2": "Country codes can also be added to the language code in the lang attribute. So, the first two characters define the language of the HTML page, and the last two characters define the country.",
+  "wp3": "The following example specifies English as the language and United States as the country:",
+  "wp4": "The title attribute defines some extra information about an element.",
+  "wp5": "The value of the title attribute will be displayed as a tooltip when you mouse over the element:",
+  "wp6": "The title attribute (and all other attributes) can be written with uppercase or lowercase like title or TITLE. However, W3C recommends lowercase attributes in HTML, and demands lowercase attributes for stricter document types like XHTML.",
+  "wp7": "Double quotes around attribute values are the most common in HTML, but single quotes can also be used.",
+  "wp8": "In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:",
+
+  "example": " <img src='img_girl.jpg' width='500' height='600'> \n\n  <img src='img_girl.jpg' alt='Girl with a jacket'> \n\n  <p style='color:red;''>This is a red paragraph.</p> \n\n <!DOCTYPE html>\n<html lang='en'>\n<body>\n...\n</body>\n</html>\n"
+}

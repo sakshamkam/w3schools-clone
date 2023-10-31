@@ -1,0 +1,21 @@
+{
+  "title": "HTML Formatting",
+  "gp1": "HTML contains several elements for defining text with a special meaning.",
+  "gp2": "Formatting elements were designed to display special types of text:",
+  "gp3": "The HTML <b> element defines bold text, without any extra importance.",
+  "gp4": "The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.",
+  "gp5": "The HTML <i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.",
+  "gp6": "Tip: The <i> tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.",
+  "gp7": "The HTML <em> element defines emphasized text. The content inside is typically displayed in italic.",
+  "gp8": "",
+  "wp1": "The HTML <small> element defines smaller text:",
+  "wp2": "The HTML <mark> element defines text that should be marked or highlighted:",
+  "wp3": "The HTML <del> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:",
+  "wp4": "The HTML <ins> element defines a text that has been inserted into a document. Browsers will usually underline inserted text:",
+  "wp5": "The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:",
+  "wp6": "The HTML <sup> element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <b>This text is bold</b> \n\n  <strong>This text is important!</strong> \n\n  <em>This text is emphasized</em> \n\n <small>This is some smaller text.</small>\n\n <p>Do not forget to buy <mark>milk</mark> today.</p>\n\n <p>My favorite color is <del>blue</del> red.</p>"
+}

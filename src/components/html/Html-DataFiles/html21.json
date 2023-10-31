@@ -1,0 +1,21 @@
+{
+  "title": "Html Block & Inline",
+  "gp1": "Every HTML element has a default display value, depending on what type of element it is.",
+  "gp2": "There are two display values: block and inline.",
+  "gp3": "A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.",
+  "gp4": "A block-level element always takes up the full width available (stretches out to the left and right as far as it can).",
+  "gp5": "Two commonly used block elements are: <p> and <div>.",
+  "gp6": "The <p> element defines a paragraph in an HTML document.",
+  "gp7": "The <div> element defines a division or a section in an HTML document.",
+  "gp8": "",
+  "wp1": "An inline element does not start on a new line.",
+  "wp2": "An inline element only takes up as much width as necessary.",
+  "wp3": "The <div> element is often used as a container for other HTML elements.",
+  "wp4": "The <div> element has no required attributes, but style, class and id are common.",
+  "wp5": "The <span> element is an inline container used to mark up a part of a text, or a part of a document.",
+  "wp6": "The <span> element has no required attributes, but style, class and id are common.",
+  "wp7": "",
+  "wp8": "",
+
+  "example": " <div style='background-color:black;color:white;padding:20px;'>\n  <h2>London</h2>\n  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>\n</div> \n\n <p>My mother has <span style='color:blue;font-weight:bold;'>blue</span> eyes and my father has <span style='color:darkolivegreen;font-weight:bold;'>dark green</span> eyes.</p>"
+}

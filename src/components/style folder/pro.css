@@ -1,0 +1,115 @@
+.pro-boss {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282a35;
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+.pro-boss h1 {
+  padding-top: 7rem;
+  font-size: 5rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.pro-boss h2 {
+  text-align: center;
+  color: #ffc0c7;
+  font-weight: 600;
+  font-size: 2.4rem;
+  padding-bottom: 4rem;
+}
+
+.ads {
+  width: 50rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+}
+
+.ad-icon {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.ad-box {
+  display: flex;
+}
+
+.ad-text {
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ads h2 {
+  width: 100%;
+  font-size: 1.8rem;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: left;
+  height: 4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.this-icon {
+  height: 2rem;
+  width: 10rem;
+  color: #d9eee1;
+}
+
+.pro-text {
+  font-size: 2rem;
+  background-color: #059862;
+  padding: 1.5rem;
+  width: 32rem;
+  text-align: center;
+  border-radius: 3rem;
+  color: white;
+  user-select: none;
+}
+
+.pro-text:hover {
+  background-color: #028c59;
+}
+
+@media (max-width: 1000px) {
+  .pro-boss h1 {
+    font-size: 4rem;
+  }
+  .pro-boss h2 {
+    font-size: 1.7rem;
+  }
+  .pro-boss h3 {
+    font-size: 1.7rem;
+  }
+  .pro-boss {
+    padding-bottom: 5rem;
+  }
+
+  .ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .this-icon {
+    margin-right: 1rem;
+  }
+
+  .ads h2 {
+    font-size: 1.5rem;
+  }
+}

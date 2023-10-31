@@ -1,0 +1,23 @@
+{
+  "title": "HTML Entities",
+  "gp1": "Reserved characters in HTML must be replaced with entities:",
+  "gp2": "If you use the less than (<) or greater than (>) signs in your HTML text, the browser might mix them with tags.",
+  "gp3": "Entity names or entity numbers can be used to display reserved HTML characters.",
+  "gp4": "To display a less than sign (<) we must write: &lt; or &#60;",
+  "gp5": "A commonly used HTML entity is the non-breaking space: &nbsp;",
+  "gp6": "Another common use of the non-breaking space is to prevent browsers from truncating spaces in HTML pages.",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "A non-breaking space is a space that will not break into a new line.",
+  "wp2": "Two words separated by a non-breaking space will stick together (not break into a new line). This is handy when breaking the words might be disruptive.",
+  "wp3": "If you write 10 spaces in your text, the browser will remove 9 of them. To add real spaces to your text, you can use the &nbsp; character entity.",
+  "wp4": "Diacritical marks can be used in combination with alphanumeric characters to produce a character that is not present in the character set (encoding) used in the page.",
+  "wp5": "",
+  "wp6": "",
+  "wp7": "",
+  "wp8": "",
+
+  "imgexample": "https://www.technipages.com/wp-content/uploads/2020/11/html-entities-header.png",
+
+  "example": ""
+}

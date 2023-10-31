@@ -1,0 +1,20 @@
+{
+  "title": "HTML Links",
+  "gp1": "Links are found in nearly all web pages. Links allow users to click their way from page to page.",
+  "gp2": "You can click on a link and jump to another document.",
+  "gp3": "When you move the mouse over a link, the mouse arrow will turn into a little hand.",
+  "gp4": "Clicking on the link text, will send the reader to the specified URL address.",
+  "gp5": "By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "Both examples above are using an absolute URL (a full web address) in the href attribute.",
+  "wp2": "A local link (a link to a page within the same website) is specified with a relative URL (without the 'https://www' part):",
+  "wp3": "To use an image as a link, just put the <img> tag inside the <a> tag:",
+  "wp4": "Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):",
+  "wp5": "To use an HTML button as a link, you have to add some JavaScript code.",
+  "wp6": "JavaScript allows you to specify what happens at certain events, such as a click of a button:",
+  "wp7": "The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.",
+  "wp8": "",
+  "example": " <h2>Absolute URLs</h2>\n<p><a href='https://www.w3.org/'>W3C</a></p>\n<p><a href='https://www.google.com'>Google</a></p>\n\n<h2>Relative URLs</h2>\n<p><a href='html_images.asp'>HTML Images</a></p>\n<p><a href='/css/default.asp'>CSS Tutorial</a></p> "
+}

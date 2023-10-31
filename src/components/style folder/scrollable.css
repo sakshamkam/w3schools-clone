@@ -1,0 +1,93 @@
+.scrollable-container {
+  font-size: 4rem;
+  background-color: #282a35;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.left-arrow,
+.right-arrow {
+  color: white;
+  gap: 1rem;
+  display: flex;
+  width: 2rem;
+  position: absolute;
+  height: 100%;
+  width: 5rem;
+  top: 0;
+  display: none;
+  align-items: center;
+}
+
+.left-arrow.active,
+.right-arrow.active {
+  display: flex;
+}
+
+.right-arrow {
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(to left, #191a1f 50%, transparent);
+}
+.left-arrow {
+  background: linear-gradient(to right, #191a1f 50%, transparent);
+}
+
+.arrow {
+  width: 60%;
+  height: 60%;
+}
+.scrollable-container ul {
+  font-size: 4rem;
+  display: flex;
+  list-style: none;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollable-container ul::-webkit-scrollbar {
+  display: none;
+}
+.scrollable-container ul li {
+  display: flex;
+}
+.scrollable-container ul .lili {
+  display: flex;
+  text-decoration: none;
+}
+
+.scrollable-container p {
+  color: white;
+  display: inline-block;
+  background-color: #282a35;
+  margin: 0;
+  user-select: none;
+  white-space: nowrap;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.scrollable-container p:hover {
+  background-color: #191a1f;
+}
+
+.outer-scroll {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.scrollable-div {
+  width: 97%;
+}
+
+@media (max-width: 1000px) {
+  .scrollable-container ul {
+    margin-left: 2.5rem;
+  }
+}

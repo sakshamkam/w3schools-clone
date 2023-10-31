@@ -1,0 +1,21 @@
+{
+  "title": "HTML Semantic Elements",
+  "gp1": "Semantic elements = elements with a meaning.",
+  "gp2": "A semantic element clearly describes its meaning to both the browser and the developer.",
+  "gp3": "Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.",
+  "gp4": "Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.",
+  "gp5": "Many web sites contain HTML code like: <div id='nav'> <div class='header'> <div id='footer'> to indicate navigation, header, and footer.",
+  "gp6": "In HTML there are some semantic elements that can be used to define different parts of a web page:  ",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "The <article> element specifies independent, self-contained content.",
+  "wp2": "The <section> element defines section in a document.",
+  "wp3": "Can we use the definitions to decide how to nest those elements? No, we cannot!",
+  "wp4": "So, you will find HTML pages with <section> elements containing <article> elements, and <article> elements containing <section> elements.",
+  "wp5": "The <header> element represents a container for introductory content or a set of navigational links.",
+  "wp6": "Note: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.",
+  "wp7": "The <footer> element defines a footer for a document or section.",
+  "wp8": "The <nav> element defines a set of navigation links.",
+
+  "example": " <section>\n<h1>WWF</h1>\n<p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>\n</section>\n\n<section>\n<h1>WWF's Panda symbol</h1>\n<p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>\n</section> "
+}

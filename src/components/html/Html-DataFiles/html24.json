@@ -1,0 +1,21 @@
+{
+  "title": "HTML Iframes",
+  "gp1": "An HTML iframe is used to display a web page within a web page.",
+  "gp2": "The HTML <iframe> tag specifies an inline frame.",
+  "gp3": "An inline frame is used to embed another document within the current HTML document.",
+  "gp4": "Tip: It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the iframe is.",
+  "gp5": "",
+  "gp6": "",
+  "gp7": "",
+  "gp8": "",
+  "wp1": "Use the height and width attributes to specify the size of the iframe.",
+  "wp2": "The height and width are specified in pixels by default:",
+  "wp3": "By default, an iframe has a border around it. ",
+  "wp4": "To remove the border, add the style attribute and use the CSS border property:",
+  "wp5": "With CSS, you can also change the size, style and color of the iframe's border:",
+  "wp6": "An iframe can be used as the target frame for a link.",
+  "wp7": "The target attribute of the link must refer to the name attribute of the iframe:",
+  "wp8": "",
+
+  "example": " <iframe src='url' title='description'></iframe> \n\n  <iframe src='demo_iframe.htm' height='200' width='300' title='Iframe Example'></iframe> \n\n  <iframe src='demo_iframe.htm' name='iframe_a' title='Iframe Example'></iframe>\n<p><a'href='https://www.w3schools.com' target='iframe_a' >W3Schools.com</a></p> "
+}
